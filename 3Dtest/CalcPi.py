@@ -2,7 +2,7 @@ import turtle
 import random
 import cmath
 c = 0  # total dans le cercle
-r = 58
+r = 52
 pim = cmath.pi
 p = 0
 
@@ -18,15 +18,16 @@ turtle.speed(10)
 
 
 def cercle():
+    global r
     m = turtle.ycor()
     for x in range(180):
-        turtle.forward(1)
+        turtle.forward(4)
         turtle.right(1)
     j = turtle.ycor()
     r = (m - j) / 2
     turtle.ycor()
     for x in range(180):
-        turtle.forward(1)
+        turtle.forward(4)
         turtle.right(1)
 
 

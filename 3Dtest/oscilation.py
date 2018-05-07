@@ -1,4 +1,4 @@
-import turtle
+&import turtle
 import time
 turtle.fillcolor("black")
 turtle.speed(10)
