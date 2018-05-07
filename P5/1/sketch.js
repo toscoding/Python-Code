@@ -1,6 +1,6 @@
 
 let v = 0;
-let w = 30;
+let w = 10;
 let ma;
 let max;
 
